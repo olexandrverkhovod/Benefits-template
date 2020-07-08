@@ -1,0 +1,29 @@
+// insert fonts here
+@font-face{
+    font-family: 'MuseoSans';
+    src : url("../fonts/MuseoSans/MuseoSansCyrl700.ttf") format("truetype"),
+    url("../fonts/MuseoSans/MuseoSansCyrl700.woff") format("woff"),
+    url("../fonts/MuseoSans/MuseoSansCyrl700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face{
+    font-family: 'MuseoSans';
+    src : url("../fonts/MuseoSans/MuseoSansCyrl500.ttf") format("truetype"),
+    url("../fonts/MuseoSans/MuseoSansCyrl500.woff") format("woff"),
+    url("../fonts/MuseoSans/MuseoSansCyrl500.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face{
+    font-family: 'MuseoSans';
+    src : url("../fonts/MuseoSans/MuseoSansCyrl300.ttf") format("truetype"),
+    url("../fonts/MuseoSans/MuseoSansCyrl300.woff") format("woff"),
+    url("../fonts/MuseoSans/MuseoSansCyrl300.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}

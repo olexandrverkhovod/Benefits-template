@@ -1,0 +1,8 @@
+mixin benefits(title,subtitle,time)
+    .col-xl-4.col-lg-4.col-md-12
+        .benefits__wrapper
+            .benefits__icon
+                img&attributes(attributes).benefits__icon--img
+            h2.benefits__title=title
+            p.benefits__subtitle!=subtitle
+            p.benefits__time=time

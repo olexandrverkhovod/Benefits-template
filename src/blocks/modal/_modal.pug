@@ -1,0 +1,11 @@
+mixin modal(info, title, text, sub_info)
+    .modal
+        .modal__content
+            .modal__header
+                span.modal__close &times;
+                h2=info
+            .modal__body
+                p=title
+                p!=text
+            .modal__footer
+                h3=sub_info

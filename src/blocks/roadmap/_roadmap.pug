@@ -1,0 +1,9 @@
+mixin roadmap (title, ...items)
+    .roadmap__list
+        .roadmap__title
+            p=title
+        ul.roadmap__line
+            each item in items
+                li.roadmap__dot
+                    img&attributes(attributes).roadmap__dot--img
+                    p.roadmap__dot--text= item

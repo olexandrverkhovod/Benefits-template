@@ -1,0 +1,25 @@
+.page {
+    &--top-section {
+        padding-top: 38px;
+        padding-bottom:70px;
+        background-image: url(../images/top_section_bg.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+
+        @media screen and (max-width: 575px) {
+            padding-top: 10px;
+            padding-bottom:78px;
+        }
+    }
+
+    &--benefits-section {
+        padding-top:66px;
+        padding-bottom: 74px;
+
+        @media screen and (max-width: 575px) {
+            padding-top:48px;
+            padding-bottom: 58px;
+        }
+    }
+}

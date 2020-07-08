@@ -1,0 +1,17 @@
+mixin nav
+    nav.nav
+        input(id="burger" type="checkbox").nav__checkbox
+        label(for="burger").nav__burger
+            .bars
+                img(src="./icons/bars.svg")
+            .times
+                img(src="./icons/times.svg")
+        ul.nav__list
+            li.nav__item
+                a(href="javascript:void(0)").nav__link О нас
+            li.nav__item
+                a(href="javascript:void(0)").nav__link Сервис
+            li.nav__item
+                a(href="javascript:void(0)").nav__link Подписка
+            li.nav__item
+                a(href="javascript:void(0)").nav__link Контакты
