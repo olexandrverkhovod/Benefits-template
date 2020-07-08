@@ -9,6 +9,7 @@ const ID_BTN = `#${BLOCK_BTN}`;
 
 const NAV = document.querySelector(CLASS_NAV);
 const BARS = NAV.querySelector(`${CLASS_NAV}__checkbox`);
+const LIST_MENU = NAV.querySelector(`${CLASS_NAV}__list`);
 const MODAL = document.querySelector(CLASS_MODAL);
 const CLOSE_BTN = MODAL.querySelector(`${CLASS_MODAL}__close`);
 const BTN = document.querySelector(`${CLASS_BTN}--top-section`);
