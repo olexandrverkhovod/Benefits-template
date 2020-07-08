@@ -9,8 +9,6 @@ const ID_BTN = `#${BLOCK_BTN}`;
 
 const NAV = document.querySelector(CLASS_NAV);
 const BARS = NAV.querySelector(`${CLASS_NAV}__checkbox`);
-const LIST_MENU = NAV.querySelector(`${CLASS_NAV}__list`);
-const RESP_MENU = NAV.querySelector(`${CLASS_NAV}__responsive`);
 const MODAL = document.querySelector(CLASS_MODAL);
 const CLOSE_BTN = MODAL.querySelector(`${CLASS_MODAL}__close`);
 const BTN = document.querySelector(`${CLASS_BTN}--top-section`);
@@ -25,13 +23,9 @@ window.addEventListener('click', outsideClick);
 function openMenu() {
     if (this.checked == true && LIST_MENU.className !== "nav__responsive") {
         LIST_MENU.className = "nav__responsive";
-        // LIST_MENU.style.paddingTop = "58px";
-        // LIST_MENU.style.maxHeight = "440px";
     }
     if (this.checked == false && LIST_MENU.className == "nav__responsive") {
         LIST_MENU.className = "nav__list";
-        // LIST_MENU.style.paddingTop = "0";
-        // LIST_MENU.style.maxHeight = "0";
     }
 }
 
